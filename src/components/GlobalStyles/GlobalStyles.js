@@ -52,7 +52,7 @@ table {
 *:after {
   box-sizing: border-box;
   line-height: 1.45;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
 }
