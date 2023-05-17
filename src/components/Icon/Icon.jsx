@@ -1,11 +1,13 @@
 /* eslint-disable react/prop-types */
 import styled from 'styled-components';
-import { Bell, Layers, Search } from 'react-feather';
+import { Bell, Box, Flag, Layers, Search } from 'react-feather';
 
 const icons = {
   search: Search,
   layers: Layers,
-  bell: Bell
+  bell: Bell,
+  flag: Flag,
+  box: Box
 };
 
 const Icon = ({ id, color, size, strokeWidth, ...delegated }) => {

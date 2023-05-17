@@ -9,18 +9,18 @@ function App() {
     <>
       <Header />
       <Main>
-        <Profile />
-        <PeopleAssociated />
+        {/* <Profile />
+        <PeopleAssociated /> */}
       </Main>
     </>
   );
 }
 
 const Main = styled.main`
-  padding: 22px 32px;
+  /* padding: 22px 32px;
   display: grid;
   grid-template-columns: 0.923fr 0.435fr;
-  gap: 16px;
+  gap: 16px; */
   min-height: 100%;
   border: 4px solid blue;
 `;

@@ -66,6 +66,7 @@ const NavLink = styled.a`
   letter-spacing: -0.05 px;
   color: rgba(95, 95, 97, 1);
   padding: 10px 12px 10px 12px;
+  text-decoration: none;
   &.active {
     background-color: rgba(246, 246, 246, 1);
     color: black;
